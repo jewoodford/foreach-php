@@ -16,5 +16,11 @@ foreach ($things as $thing) {
 		echo "string\n";
 	}
 }
+echo '==================================' . PHP_EOL;
+foreach ($things as $thingStep2) {
+	if (is_scalar($thingStep2)) {
+		echo "$thingStep2 is scalar\n";
+	}
+}
 
 ?>
